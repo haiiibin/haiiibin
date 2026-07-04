@@ -24,7 +24,7 @@ Mixed-integer linear programming model reassigning 2,000 students after a school
 
 <img src="./images/schoolbus_result.png" alt="School bus optimization results" width="500"/>
 
-**More projects:** [US stock price prediction (VAR / LASSO / LSTM)](https://github.com/haiiibin/us-stock-price-prediction) · [10-K NLP industry analysis](https://github.com/haiiibin/health-service-industry-analysis)
+**More projects:** [US stock price prediction (VAR / LASSO / LSTM)](https://github.com/haiiibin/us-stock-price-prediction) · [10-K NLP industry analysis](https://github.com/haiiibin/health-service-industry-analysis) · [TikTok reviews sentiment analysis (Python + R)](https://github.com/haiiibin/tiktok-reviews-sentiment-analysis) · [Nutrition planning optimization (LP)](https://github.com/haiiibin/nutrition-planning-optimization)
 
 ## 🛠 Tech Stack
 
@@ -38,6 +38,12 @@ Mixed-integer linear programming model reassigning 2,000 students after a school
 - **Master of Business Analytics (MBAN)**, UBC Sauder School of Business (Nov 2025)
 - **BA in Economics**, Minor in Commerce, UBC (May 2024), graduated with distinction
 - **CFA Level II Candidate**
+
+## ⚡ Recent Activity
+
+<!-- Auto-updated daily by .github/workflows/update-readme.yml -->
+<!--RECENT_ACTIVITY:start-->
+<!--RECENT_ACTIVITY:end-->
 
 ## 📫 Contact
 
