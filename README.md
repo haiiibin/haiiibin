@@ -1,8 +1,8 @@
 # Hi, I'm Allen 👋
 
-**People Analyst @ Electronic Arts | UBC MBAN | Data Analytics & Machine Learning**
+**People Analyst @ Electronic Arts | UBC MBAN | Data & AI Engineering**
 
-I turn messy data into decisions: forecasting, optimization, and machine learning, with an AI-assisted workflow (Claude Code, MCP) built into how I work.
+I build AI agent workflows and data products: a [multi-agent investing framework](https://github.com/haiiibin/claude-multi-agent-investing) where Buffett, Munger, and Burry personas debate my portfolio, an end-to-end [job application pipeline](https://github.com/haiiibin/ai-job-hunt-pipeline), and the forecasting, optimization, and machine learning work below. Claude Code and MCP are built into how I work every day.
 
 ## 📌 Featured Projects
 
