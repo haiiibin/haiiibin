@@ -24,7 +24,7 @@ Mixed-integer linear programming model reassigning 2,000 students after a school
 
 <img src="./images/schoolbus_result.png" alt="School bus optimization results" width="500"/>
 
-**More projects:** [Multi-agent investing framework: 12 AI agents debate a portfolio through 13 commands](https://github.com/haiiibin/claude-multi-agent-investing) · [AI job hunt pipeline: scan, score, tailor, compile, human-submit](https://github.com/haiiibin/ai-job-hunt-pipeline) · [US stock price prediction (VAR / LASSO / LSTM)](https://github.com/haiiibin/us-stock-price-prediction) · [10-K NLP industry analysis](https://github.com/haiiibin/health-service-industry-analysis) · [TikTok reviews sentiment analysis (Python + R)](https://github.com/haiiibin/tiktok-reviews-sentiment-analysis) · [Nutrition planning optimization (LP)](https://github.com/haiiibin/nutrition-planning-optimization)
+**More projects:** [Multi-agent investing framework: 12 AI agents debate a portfolio through 13 commands](https://github.com/haiiibin/claude-multi-agent-investing) · [AI job hunt pipeline (China portals): scan, score, tailor, compile, human-submit](https://github.com/haiiibin/ai-job-hunt-pipeline) · [AI job hunt pipeline (North America): score, tailor, cover letter, compile](https://github.com/haiiibin/ai-job-hunt-pipeline-na) · [US stock price prediction (VAR / LASSO / LSTM)](https://github.com/haiiibin/us-stock-price-prediction) · [10-K NLP industry analysis](https://github.com/haiiibin/health-service-industry-analysis) · [TikTok reviews sentiment analysis (Python + R)](https://github.com/haiiibin/tiktok-reviews-sentiment-analysis) · [Nutrition planning optimization (LP)](https://github.com/haiiibin/nutrition-planning-optimization)
 
 ## 🛠 Tech Stack
 
