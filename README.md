@@ -57,7 +57,7 @@ Mixed-integer linear programming model reassigning 2,000 students after a school
 
 ## 📊 GitHub Stats
 
-<img src="https://streak-stats.demolab.com?user=haiiibin&hide_border=true&background=FFFFFF00&ring=2A78D6&fire=2A78D6&currStreakLabel=2A78D6" alt="GitHub streak" height="160"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=haiiibin&layout=compact&hide_border=true&bg_color=FFFFFF00&title_color=2A78D6&langs_count=8" alt="Top languages" height="160"/>
+<img src="https://streak-stats.demolab.com?user=haiiibin&hide_border=true&background=FFFFFF00&ring=2A78D6&fire=2A78D6&currStreakLabel=2A78D6" alt="GitHub streak" height="160"/>
 
 ## ⚡ Recent Activity
 
