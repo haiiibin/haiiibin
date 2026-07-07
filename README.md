@@ -43,11 +43,11 @@ Mixed-integer linear programming model reassigning 2,000 students after a school
 
 <!-- Auto-updated daily by .github/workflows/update-readme.yml -->
 <!--RECENT_ACTIVITY:start-->
+- `2026-07-07` Pushed 1 commit to [haiiibin/haiiibin.github.io](https://github.com/haiiibin/haiiibin.github.io)
 - `2026-07-06` Pushed 1 commit to [haiiibin/haiiibin.github.io](https://github.com/haiiibin/haiiibin.github.io)
 - `2026-07-06` Pushed 1 commit to [haiiibin/haiiibin](https://github.com/haiiibin/haiiibin)
 - `2026-07-06` Pushed 1 commit to [haiiibin/ai-job-hunt-pipeline-na](https://github.com/haiiibin/ai-job-hunt-pipeline-na)
 - `2026-07-06` Pushed 1 commit to [haiiibin/ai-job-hunt-pipeline](https://github.com/haiiibin/ai-job-hunt-pipeline)
-- `2026-07-06` Pushed 1 commit to [haiiibin/claude-multi-agent-investing](https://github.com/haiiibin/claude-multi-agent-investing)
 <!--RECENT_ACTIVITY:end-->
 
 ## 📫 Contact
