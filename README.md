@@ -1,8 +1,8 @@
 # Hi, I'm Allen 👋
 
-<a href="https://haiiibin.github.io"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=19&pause=1100&color=2A78D6&width=560&lines=People+Analyst+%40+Electronic+Arts;I+build+AI+agent+workflows+with+Claude+Code;Forecasting+%C2%B7+Optimization+%C2%B7+Machine+Learning" alt="Typing intro"/></a>
+<a href="https://haiiibin.github.io"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=19&pause=1100&color=2A78D6&width=560&lines=People+Analyst+%C2%B7+Data+%26+AI+Engineering;I+build+AI+agent+workflows+with+Claude+Code;Forecasting+%C2%B7+Optimization+%C2%B7+Machine+Learning" alt="Typing intro"/></a>
 
-**People Analyst @ Electronic Arts | UBC MBAN | Data & AI Engineering**
+**People Analyst | UBC MBAN | Data & AI Engineering**
 
 I build AI agent workflows and data products: a multi-agent investing framework where Buffett, Munger, and Burry personas debate my portfolio, an end-to-end job application pipeline, and the forecasting, optimization, and machine learning work below. Claude Code and MCP are built into how I work every day.
 
