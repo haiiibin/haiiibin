@@ -28,6 +28,11 @@ def fetch_events():
         return json.load(resp)
 
 
+# Lower rank = higher priority. Contributions and releases outrank bare pushes
+# so a day of portfolio commits cannot bury a merged PR or a release.
+RANK = {"PullRequestEvent": 0, "ReleaseEvent": 0, "CreateEvent": 1, "PushEvent": 2}
+
+
 def describe(event):
     repo = event["repo"]["name"]
     url = f"https://github.com/{repo}"
@@ -49,15 +54,16 @@ def describe(event):
 
 
 def main():
-    lines, seen = [], set()
-    for event in fetch_events():
+    candidates, seen = [], set()
+    # Events arrive newest-first; keep that order as the tiebreaker within a rank.
+    for order, event in enumerate(fetch_events()):
         item = describe(event)
         if item is None or item[1] in seen:
             continue
         seen.add(item[1])
-        lines.append(item[1])
-        if len(lines) >= MAX_ITEMS:
-            break
+        candidates.append((RANK.get(event["type"], 3), order, item[1]))
+    candidates.sort(key=lambda c: (c[0], c[1]))
+    lines = [c[2] for c in candidates[:MAX_ITEMS]]
     if not lines:
         lines = ["- Quiet week: nothing public to report"]
 
