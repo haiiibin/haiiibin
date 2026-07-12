@@ -4,15 +4,15 @@
 
 **Data & AI Analyst | UBC MBAN | Forecasting · Optimization · ML**
 
-I build AI agent workflows and data products: a multi-agent investing framework where Buffett, Munger, and Burry personas debate my portfolio, an end-to-end job application pipeline, and the forecasting, optimization, and machine learning work below. Claude Code and MCP are built into how I work every day.
+I build AI agent workflows and data products: two MCP servers published on PyPI (a tabular-data profiler and a Canadian capital-gains engine), a multi-agent investing framework where Buffett, Munger, and Burry personas debate my portfolio, and the forecasting, optimization, and machine learning work below. Claude Code and MCP are built into how I work every day.
 
 *Open to Data Analyst and Data Science roles, Vancouver or remote.*
 
 ## 🔭 Now
 
+- Just shipped [data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp) and [acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp) to PyPI: install with `pip`, CI-tested, submitted to awesome-mcp-servers
 - Building [claude-multi-agent-investing](https://github.com/haiiibin/claude-multi-agent-investing): teaching 12 agents to argue about my portfolio so I don't have to
-- Stress-testing [ai-job-hunt-pipeline](https://github.com/haiiibin/ai-job-hunt-pipeline) against real Chinese recruiting portals and folding the fixes back into the repo
-- Contributing fixes upstream to the yahoo-finance-mcp MCP server (see Open Source below)
+- Contributing fixes upstream to the tools I depend on: PuLP, sec-edgar-mcp, yahoo-finance-mcp (see Open Source below)
 
 ## 📌 Featured Projects
 
@@ -24,11 +24,15 @@ I build AI agent workflows and data products: a multi-agent investing framework 
 
 <img src="./images/investing_agents.png" alt="Multi-agent investing architecture" width="560"/>
 
-#### [AI Job Hunt Pipeline](https://github.com/haiiibin/ai-job-hunt-pipeline)
+#### [data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp) · on [PyPI](https://pypi.org/project/data-profiler-mcp/)
 
-End-to-end Claude Code workflow: scan job boards, hard-rule filter, A-F scoring against a weighted rubric, one-page resume tailoring, PDF compile, browser autofill, and a hard stop so a human always hits Submit. A leaner [North America version](https://github.com/haiiibin/ai-job-hunt-pipeline-na) ships separately.
+MCP server that lets an LLM understand any tabular data file (CSV, Parquet, Excel, JSON): schema, per-column statistics, severity-ranked data-quality flags, and memory-saving dtype suggestions. `pip install data-profiler-mcp`, CI-tested on Python 3.10 to 3.12.
 
-<img src="./images/jobhunt_pipeline.png" alt="Job hunt pipeline stages" width="560"/>
+<img src="https://raw.githubusercontent.com/haiiibin/data-profiler-mcp/main/docs/demo.gif" alt="data-profiler-mcp demo" width="560"/>
+
+#### [acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp) · on [PyPI](https://pypi.org/project/acb-tax-mcp/)
+
+Canadian adjusted cost base and capital gains for LLM agents: CRA average-cost method, per-disposition realized gains, and superficial-loss detection with the denied loss deferred into the substitute shares' ACB. Decimal-precise to the cent, zero heavy dependencies, a calculation aid (not tax advice).
 
 ### 📈 Analytics & ML
 
@@ -50,14 +54,16 @@ Mixed-integer linear programming model reassigning 2,000 students after a school
 
 <img src="./images/schoolbus_result.png" alt="School bus optimization results" width="500"/>
 
-**More projects:** [AI job hunt pipeline (North America)](https://github.com/haiiibin/ai-job-hunt-pipeline-na) · [US stock price prediction (VAR / LASSO / LSTM)](https://github.com/haiiibin/us-stock-price-prediction) · [10-K NLP industry analysis](https://github.com/haiiibin/health-service-industry-analysis) · [TikTok reviews sentiment analysis (Python + R)](https://github.com/haiiibin/tiktok-reviews-sentiment-analysis) · [Nutrition planning optimization (LP)](https://github.com/haiiibin/nutrition-planning-optimization)
+**More projects:** [AI job hunt pipeline](https://github.com/haiiibin/ai-job-hunt-pipeline) · [NA version](https://github.com/haiiibin/ai-job-hunt-pipeline-na) · [US stock price prediction (VAR / LASSO / LSTM)](https://github.com/haiiibin/us-stock-price-prediction) · [10-K NLP industry analysis](https://github.com/haiiibin/health-service-industry-analysis) · [TikTok reviews sentiment analysis (Python + R)](https://github.com/haiiibin/tiktok-reviews-sentiment-analysis) · [Nutrition planning optimization (LP)](https://github.com/haiiibin/nutrition-planning-optimization)
 
 ## 🔧 Open Source Contributions
 
-Contributing fixes upstream to [yahoo-finance-mcp](https://github.com/Alex2Yang97/yahoo-finance-mcp), the MCP server my investing framework runs on:
+Besides maintaining [data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp) and [acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp) (both on PyPI), I contribute fixes upstream to the tools I depend on:
 
-- [#16](https://github.com/Alex2Yang97/yahoo-finance-mcp/pull/16) start/end date-range support for historical prices (closes an open issue)
-- [#17](https://github.com/Alex2Yang97/yahoo-finance-mcp/pull/17) US class-share ticker normalization, so `BRK.B` stops silently returning empty data
+- [coin-or/pulp #936](https://github.com/coin-or/pulp/pull/936) expose CBC's `randomSeed` on `COIN_CMD` for reproducible MILP solves (under review)
+- [sec-edgar-mcp #142](https://github.com/stefanoamorelli/sec-edgar-mcp/pull/142) fix 9 tools whose descriptions were silently empty (f-string docstrings never reach `__doc__`), with a regression test (under review)
+- [yahoo-finance-mcp #16](https://github.com/Alex2Yang97/yahoo-finance-mcp/pull/16) start/end date-range support for historical prices (closes an open issue)
+- [yahoo-finance-mcp #17](https://github.com/Alex2Yang97/yahoo-finance-mcp/pull/17) US class-share ticker normalization, so `BRK.B` stops silently returning empty data
 
 ## 🛠 Tech Stack
 
