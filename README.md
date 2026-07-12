@@ -6,8 +6,6 @@
 
 I build AI agent workflows and data products: two MCP servers published on PyPI (a tabular-data profiler and a Canadian capital-gains engine), a multi-agent investing framework where Buffett, Munger, and Burry personas debate my portfolio, and the forecasting, optimization, and machine learning work below. Claude Code and MCP are built into how I work every day.
 
-*Open to Data Analyst and Data Science roles, Vancouver or remote.*
-
 ## 🔭 Now
 
 - Just shipped [data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp) and [acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp) to PyPI: install with `pip`, CI-tested, submitted to awesome-mcp-servers
