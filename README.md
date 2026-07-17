@@ -52,7 +52,7 @@ Mixed-integer linear programming model reassigning 2,000 students after a school
 
 <img src="./images/schoolbus_result.png" alt="School bus optimization results" width="500"/>
 
-**More projects:** [AI job hunt pipeline](https://github.com/haiiibin/ai-job-hunt-pipeline) · [NA version](https://github.com/haiiibin/ai-job-hunt-pipeline-na) · [US stock price prediction (VAR / LASSO / LSTM)](https://github.com/haiiibin/us-stock-price-prediction) · [10-K NLP industry analysis](https://github.com/haiiibin/health-service-industry-analysis) · [TikTok reviews sentiment analysis (Python + R)](https://github.com/haiiibin/tiktok-reviews-sentiment-analysis) · [Nutrition planning optimization (LP)](https://github.com/haiiibin/nutrition-planning-optimization)
+**More projects:** [US stock price prediction (VAR / LASSO / LSTM)](https://github.com/haiiibin/us-stock-price-prediction) · [10-K NLP industry analysis](https://github.com/haiiibin/health-service-industry-analysis) · [TikTok reviews sentiment analysis (Python + R)](https://github.com/haiiibin/tiktok-reviews-sentiment-analysis) · [Nutrition planning optimization (LP)](https://github.com/haiiibin/nutrition-planning-optimization)
 
 ## 🔧 Open Source Contributions
 
