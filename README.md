@@ -83,8 +83,8 @@ Besides maintaining [data-profiler-mcp](https://github.com/haiiibin/data-profile
 - `2026-07-11` Opened PR in [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
 - `2026-07-10` Opened PR in [coin-or/pulp](https://github.com/coin-or/pulp)
 - `2026-07-10` Opened PR in [stefanoamorelli/sec-edgar-mcp](https://github.com/stefanoamorelli/sec-edgar-mcp)
-- `2026-07-12` Pushed 1 commit to [haiiibin/haiiibin.github.io](https://github.com/haiiibin/haiiibin.github.io)
-- `2026-07-12` Pushed 1 commit to [haiiibin/haiiibin](https://github.com/haiiibin/haiiibin)
+- `2026-07-17` Pushed 1 commit to [haiiibin/haiiibin](https://github.com/haiiibin/haiiibin)
+- `2026-07-17` Pushed 1 commit to [haiiibin/haiiibin.github.io](https://github.com/haiiibin/haiiibin.github.io)
 <!--RECENT_ACTIVITY:end-->
 
 ## 🎓 Education & Certifications
