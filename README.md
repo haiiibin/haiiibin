@@ -82,11 +82,11 @@ Besides maintaining [data-profiler-mcp](https://github.com/haiiibin/data-profile
 
 <!-- Auto-updated daily by .github/workflows/update-readme.yml -->
 <!--RECENT_ACTIVITY:start-->
+- `2026-07-29` Published release in [haiiibin/data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp)
+- `2026-07-29` Published release in [haiiibin/acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp)
+- `2026-07-28` Published release in [haiiibin/data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp)
+- `2026-07-28` Published release in [haiiibin/acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp)
 - `2026-07-22` Published release in [haiiibin/data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp)
-- `2026-07-22` Published release in [haiiibin/acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp)
-- `2026-07-18` Opened PR in [unit8co/darts](https://github.com/unit8co/darts)
-- `2026-07-11` Opened PR in [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
-- `2026-07-10` Opened PR in [coin-or/pulp](https://github.com/coin-or/pulp)
 <!--RECENT_ACTIVITY:end-->
 
 ## 🎓 Education & Certifications
