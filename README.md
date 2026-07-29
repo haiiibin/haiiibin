@@ -8,7 +8,7 @@ I build AI agent workflows and data products: two MCP servers published on PyPI 
 
 ## 🔭 Now
 
-- Just shipped [data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp) and [acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp) to PyPI: install with `pip`, CI-tested, submitted to awesome-mcp-servers
+- Shipped [data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp) and [acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp): on PyPI and the official [MCP Registry](https://registry.modelcontextprotocol.io), listed in awesome-mcp-servers, Glama score A for both
 - Building [claude-multi-agent-investing](https://github.com/haiiibin/claude-multi-agent-investing): teaching 12 agents to argue about my portfolio so I don't have to
 - Contributing fixes upstream to the tools I depend on: PuLP, sec-edgar-mcp, yahoo-finance-mcp (see Open Source below)
 
@@ -24,13 +24,15 @@ I build AI agent workflows and data products: two MCP servers published on PyPI 
 
 #### [data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp) · on [PyPI](https://pypi.org/project/data-profiler-mcp/)
 
-MCP server that lets an LLM understand any tabular data file (CSV, Parquet, Excel, JSON): schema, per-column statistics, severity-ranked data-quality flags, and memory-saving dtype suggestions. `pip install data-profiler-mcp`, CI-tested on Python 3.10 to 3.12.
+MCP server that lets an LLM understand any tabular data file (CSV, Parquet, Excel, JSON): schema, per-column statistics, severity-ranked data-quality flags, and memory-saving dtype suggestions. `pip install data-profiler-mcp`, CI-tested on Python 3.10 to 3.13.
 
 <img src="https://raw.githubusercontent.com/haiiibin/data-profiler-mcp/main/docs/demo.gif" alt="data-profiler-mcp demo" width="560"/>
 
 #### [acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp) · on [PyPI](https://pypi.org/project/acb-tax-mcp/)
 
-Canadian adjusted cost base and capital gains for LLM agents: CRA average-cost method, per-disposition realized gains, and superficial-loss detection with the denied loss deferred into the substitute shares' ACB. Decimal-precise to the cent, zero heavy dependencies, a calculation aid (not tax advice).
+Canadian adjusted cost base and capital gains for LLM agents: CRA average-cost method, per-disposition realized gains, superficial-loss detection, unrealized gains against market prices, and a normalizer that turns raw broker CSV exports into clean transactions. Decimal-precise to the cent, zero heavy dependencies, a calculation aid (not tax advice).
+
+<img src="https://raw.githubusercontent.com/haiiibin/acb-tax-mcp/main/docs/demo.gif" alt="acb-tax-mcp demo" width="560"/>
 
 ### 📈 Analytics & ML
 
