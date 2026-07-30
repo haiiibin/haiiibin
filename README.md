@@ -10,7 +10,7 @@ I build AI agent workflows and data products: two MCP servers published on PyPI 
 
 - Shipped [data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp) and [acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp): on PyPI and the official [MCP Registry](https://registry.modelcontextprotocol.io), listed in awesome-mcp-servers, Glama score A for both
 - Building [claude-multi-agent-investing](https://github.com/haiiibin/claude-multi-agent-investing): teaching 12 agents to argue about my portfolio so I don't have to
-- Contributing fixes upstream to the tools I depend on: PuLP, sec-edgar-mcp, yahoo-finance-mcp (see Open Source below)
+- Contributing fixes upstream to the tools I depend on: darts, PuLP, sec-edgar-mcp, yahoo-finance-mcp (see Open Source below)
 
 ## 📌 Featured Projects
 
@@ -60,6 +60,7 @@ Mixed-integer linear programming model reassigning 2,000 students after a school
 
 Besides maintaining [data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp) and [acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp) (both on PyPI), I contribute fixes upstream to the tools I depend on:
 
+- [unit8co/darts #3167](https://github.com/unit8co/darts/pull/3167) optional `min_train_length` on local forecasting models, so short time series can train models that previously hard-required 10 points (**merged**)
 - [coin-or/pulp #936](https://github.com/coin-or/pulp/pull/936) expose CBC's `randomSeed` on `COIN_CMD` for reproducible MILP solves (under review)
 - [sec-edgar-mcp #142](https://github.com/stefanoamorelli/sec-edgar-mcp/pull/142) fix 9 tools whose descriptions were silently empty (f-string docstrings never reach `__doc__`), with a regression test (under review)
 - [yahoo-finance-mcp #16](https://github.com/Alex2Yang97/yahoo-finance-mcp/pull/16) start/end date-range support for historical prices (closes an open issue)
