@@ -82,11 +82,11 @@ Besides maintaining [data-profiler-mcp](https://github.com/haiiibin/data-profile
 
 <!-- Auto-updated daily by .github/workflows/update-readme.yml -->
 <!--RECENT_ACTIVITY:start-->
+- `2026-07-30` Published release in [haiiibin/claude-multi-agent-investing](https://github.com/haiiibin/claude-multi-agent-investing)
 - `2026-07-29` Published release in [haiiibin/data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp)
 - `2026-07-29` Published release in [haiiibin/acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp)
 - `2026-07-28` Published release in [haiiibin/data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp)
 - `2026-07-28` Published release in [haiiibin/acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp)
-- `2026-07-22` Published release in [haiiibin/data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp)
 <!--RECENT_ACTIVITY:end-->
 
 ## 🎓 Education & Certifications
