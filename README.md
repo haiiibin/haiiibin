@@ -4,7 +4,7 @@
 
 **Data & AI Analyst | UBC MBAN | Forecasting · Optimization · ML**
 
-I build AI agent workflows and data products: two MCP servers published on PyPI (a tabular-data profiler and a Canadian capital-gains engine), a multi-agent investing framework where Buffett, Munger, and Burry personas debate my portfolio, and the forecasting, optimization, and machine learning work below. Claude Code and MCP are built into how I work every day.
+I build AI agent workflows and data products: two MCP servers published on PyPI (a tabular-data profiler and a Canadian capital-gains engine), and a multi-agent investing framework where Buffett, Munger, and Burry personas debate my portfolio. Claude Code and MCP are built into how I work every day.
 
 ## 🔭 Now
 
@@ -14,47 +14,23 @@ I build AI agent workflows and data products: two MCP servers published on PyPI 
 
 ## 📌 Featured Projects
 
-### 🤖 Open Source & AI Agents
-
-#### [Claude Multi-Agent Investing](https://github.com/haiiibin/claude-multi-agent-investing)
+### [Claude Multi-Agent Investing](https://github.com/haiiibin/claude-multi-agent-investing)
 
 12 agents (Buffett, Munger, and Burry personas, 6 fact-gathering analysts, 1 portfolio-manager synthesizer) debate every holding through 13 slash commands: tax-aware for Canadian accounts, advisory only, zero API cost beyond a Claude Code subscription.
 
 <img src="./images/investing_agents.png" alt="Multi-agent investing architecture" width="560"/>
 
-#### [data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp) · on [PyPI](https://pypi.org/project/data-profiler-mcp/)
+### [data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp) · on [PyPI](https://pypi.org/project/data-profiler-mcp/)
 
 MCP server that lets an LLM understand any tabular data file (CSV, Parquet, Excel, JSON): schema, per-column statistics, severity-ranked data-quality flags, and memory-saving dtype suggestions. `pip install data-profiler-mcp`, CI-tested on Python 3.10 to 3.13.
 
 <img src="https://raw.githubusercontent.com/haiiibin/data-profiler-mcp/main/docs/demo.gif" alt="data-profiler-mcp demo" width="560"/>
 
-#### [acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp) · on [PyPI](https://pypi.org/project/acb-tax-mcp/)
+### [acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp) · on [PyPI](https://pypi.org/project/acb-tax-mcp/)
 
 Canadian adjusted cost base and capital gains for LLM agents: CRA average-cost method, per-disposition realized gains, superficial-loss detection, unrealized gains against market prices, and a normalizer that turns raw broker CSV exports into clean transactions. Decimal-precise to the cent, zero heavy dependencies, a calculation aid (not tax advice).
 
 <img src="https://raw.githubusercontent.com/haiiibin/acb-tax-mcp/main/docs/demo.gif" alt="acb-tax-mcp demo" width="560"/>
-
-### 📈 Analytics & ML
-
-#### [YVR Energy Consumption Forecasting](https://github.com/haiiibin/Vancouver-International-Airport-Energy-Consumption-Forecasting)
-
-Forecasting 14 years of monthly energy consumption for Vancouver International Airport with Box-Cox transformation and seasonal ARIMA: **1.7% MAPE** on holdout data, with 3-year projections supporting procurement planning.
-
-<img src="./images/yvr_forecast.png" alt="YVR forecast" width="500"/>
-
-#### [Machine Learning for Diabetes Risk Screening](https://github.com/haiiibin/Machine-Learning-for-Diabetes-Risk-Screening)
-
-Two-stage ML pipeline (logistic regression screening, then random forest diagnosis) that cuts unnecessary lab tests by **30%** while keeping **95% detection sensitivity** (F1 = 0.87).
-
-<img src="./images/diabetes_results.png" alt="Diabetes model results" width="500"/>
-
-#### [School Bus Route Optimization](https://github.com/haiiibin/school-bus-route-optimization)
-
-Mixed-integer linear programming model reassigning 2,000 students after a school closure: base solution **$1.73M/year with 29 buses**, plus a weather-constrained scenario quantifying the safety vs. cost trade-off.
-
-<img src="./images/schoolbus_result.png" alt="School bus optimization results" width="500"/>
-
-**More projects:** [US stock price prediction (VAR / LASSO / LSTM)](https://github.com/haiiibin/us-stock-price-prediction) · [10-K NLP industry analysis](https://github.com/haiiibin/health-service-industry-analysis) · [TikTok reviews sentiment analysis (Python + R)](https://github.com/haiiibin/tiktok-reviews-sentiment-analysis) · [Nutrition planning optimization (LP)](https://github.com/haiiibin/nutrition-planning-optimization)
 
 ## 🔧 Open Source Contributions
 
