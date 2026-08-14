@@ -22,13 +22,13 @@ I build AI agent workflows and data products: two MCP servers published on PyPI 
 
 ### [data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp) · on [PyPI](https://pypi.org/project/data-profiler-mcp/)
 
-MCP server that lets an LLM understand any tabular data file (CSV, Parquet, Excel, JSON): schema, per-column statistics, severity-ranked data-quality flags, and memory-saving dtype suggestions. `pip install data-profiler-mcp`, CI-tested on Python 3.10 to 3.13.
+MCP server that lets an LLM understand any tabular data file (CSV, Parquet, Excel, JSON): schema, per-column statistics, severity-ranked data-quality flags, correlation analysis with multicollinearity warnings, and memory-saving dtype suggestions. `pip install data-profiler-mcp`, CI-tested on Python 3.10 to 3.13.
 
 <img src="https://raw.githubusercontent.com/haiiibin/data-profiler-mcp/main/docs/demo.gif" alt="data-profiler-mcp demo" width="560"/>
 
 ### [acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp) · on [PyPI](https://pypi.org/project/acb-tax-mcp/)
 
-Canadian adjusted cost base and capital gains for LLM agents: CRA average-cost method, per-disposition realized gains, superficial-loss detection, unrealized gains against market prices, and a normalizer that turns raw broker CSV exports into clean transactions. Decimal-precise to the cent, zero heavy dependencies, a calculation aid (not tax advice).
+Canadian adjusted cost base and capital gains for LLM agents: CRA average-cost method, per-disposition realized gains, superficial-loss detection, Schedule 3 per-security summaries, unrealized gains against market prices, and a normalizer that turns raw broker CSV exports into clean transactions. Decimal-precise to the cent, zero heavy dependencies, a calculation aid (not tax advice).
 
 <img src="https://raw.githubusercontent.com/haiiibin/acb-tax-mcp/main/docs/demo.gif" alt="acb-tax-mcp demo" width="560"/>
 
@@ -37,7 +37,7 @@ Canadian adjusted cost base and capital gains for LLM agents: CRA average-cost m
 Besides maintaining [data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp) and [acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp) (both on PyPI), I contribute fixes upstream to the tools I depend on:
 
 - [unit8co/darts #3167](https://github.com/unit8co/darts/pull/3167) optional `min_train_length` on local forecasting models, so short time series can train models that previously hard-required 10 points (**merged**)
-- [coin-or/pulp #936](https://github.com/coin-or/pulp/pull/936) expose CBC's `randomSeed` on `COIN_CMD` for reproducible MILP solves (under review)
+- [coin-or/pulp #936](https://github.com/coin-or/pulp/pull/936) expose CBC's `randomSeed` on `COIN_CMD` for reproducible MILP solves (**merged**)
 - [sec-edgar-mcp #142](https://github.com/stefanoamorelli/sec-edgar-mcp/pull/142) fix 9 tools whose descriptions were silently empty (f-string docstrings never reach `__doc__`), with a regression test (under review)
 - [yahoo-finance-mcp #16](https://github.com/Alex2Yang97/yahoo-finance-mcp/pull/16) start/end date-range support for historical prices (closes an open issue)
 - [yahoo-finance-mcp #17](https://github.com/Alex2Yang97/yahoo-finance-mcp/pull/17) US class-share ticker normalization, so `BRK.B` stops silently returning empty data
