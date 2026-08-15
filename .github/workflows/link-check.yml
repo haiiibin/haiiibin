@@ -1,0 +1,29 @@
+name: Link check
+
+on:
+  schedule:
+    - cron: "23 6 1 * *" # monthly, 1st at 06:23 UTC
+  workflow_dispatch:
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # 403/429: LinkedIn, shields and friends rate-limit bots; not dead links.
+          args: --no-progress --accept "200..=299,403,429" README.md
+          fail: false
+      - name: Open issue on failures
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Link check found dead links in README"
+          content-filepath: ./lychee/out.md
+          labels: maintenance
