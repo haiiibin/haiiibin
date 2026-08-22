@@ -64,7 +64,7 @@ Besides maintaining [data-profiler-mcp](https://github.com/haiiibin/data-profile
 - `2026-08-14` Published release in [haiiibin/acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp)
 - `2026-08-14` Published release in [haiiibin/data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp)
 - `2026-07-30` Published release in [haiiibin/claude-multi-agent-investing](https://github.com/haiiibin/claude-multi-agent-investing)
-- `2026-07-29` Published release in [haiiibin/data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp)
+- `2026-08-22` Pushed 1 commit to [haiiibin/haiiibin](https://github.com/haiiibin/haiiibin)
 <!--RECENT_ACTIVITY:end-->
 
 ## 🎓 Education & Certifications
