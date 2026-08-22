@@ -8,7 +8,7 @@ I build AI agent workflows and data products: two MCP servers published on PyPI 
 
 ## 🔭 Now
 
-- Shipped [data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp) and [acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp): on PyPI and the official [MCP Registry](https://registry.modelcontextprotocol.io), listed in awesome-mcp-servers, Glama score A for both
+- Shipped [data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp) and [acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp): on PyPI and the official [MCP Registry](https://registry.modelcontextprotocol.io), listed in awesome-mcp-servers, Glama score A for both, 1,000+ combined installs a month
 - Building [claude-multi-agent-investing](https://github.com/haiiibin/claude-multi-agent-investing): teaching 12 agents to argue about my portfolio so I don't have to
 - Contributing fixes upstream to the tools I depend on: darts, PuLP, sec-edgar-mcp, yahoo-finance-mcp (see Open Source below)
 
