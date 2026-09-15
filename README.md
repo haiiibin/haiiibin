@@ -60,11 +60,11 @@ Besides maintaining [data-profiler-mcp](https://github.com/haiiibin/data-profile
 
 <!-- Auto-updated daily by .github/workflows/update-readme.yml -->
 <!--RECENT_ACTIVITY:start-->
+- `2026-09-14` Pushed 1 commit to [haiiibin/haiiibin](https://github.com/haiiibin/haiiibin)
+- `2026-09-14` Pushed 1 commit to [haiiibin/python-sdk](https://github.com/haiiibin/python-sdk)
+- `2026-09-14` Pushed 1 commit to [haiiibin/haiiibin.github.io](https://github.com/haiiibin/haiiibin.github.io)
 - `2026-08-22` Pushed 1 commit to [haiiibin/haiiibin](https://github.com/haiiibin/haiiibin)
 - `2026-08-22` Pushed 1 commit to [haiiibin/acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp)
-- `2026-08-22` Pushed 1 commit to [haiiibin/vlog-pipeline](https://github.com/haiiibin/vlog-pipeline)
-- `2026-08-22` Pushed 1 commit to [haiiibin/data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp)
-- `2026-08-22` Pushed 1 commit to [haiiibin/claude-multi-agent-investing](https://github.com/haiiibin/claude-multi-agent-investing)
 <!--RECENT_ACTIVITY:end-->
 
 ## 🎓 Education & Certifications
