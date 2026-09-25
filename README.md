@@ -40,6 +40,8 @@ Besides maintaining [data-profiler-mcp](https://github.com/haiiibin/data-profile
 - [unit8co/darts #3167](https://github.com/unit8co/darts/pull/3167) optional `min_train_length` on local forecasting models, so short time series can train models that previously hard-required 10 points (**shipped in darts 0.47.0**, credited in the changelog)
 - [coin-or/pulp #936](https://github.com/coin-or/pulp/pull/936) expose CBC's `randomSeed` on `COIN_CMD` for reproducible MILP solves (**merged**)
 - [sec-edgar-mcp #142](https://github.com/stefanoamorelli/sec-edgar-mcp/pull/142) fix 9 tools whose descriptions were silently empty (f-string docstrings never reach `__doc__`), with a regression test (under review)
+- [sec-edgar-toolkit #6](https://github.com/stefanoamorelli/sec-edgar-toolkit/pull/6) Form 4 parser fixes in both the Python and TypeScript SDKs: 1/0 booleans, derivative rows and holdings in the layout filed documents actually use (under review)
+- [sec-edgar-mcp #174](https://github.com/stefanoamorelli/sec-edgar-mcp/pull/174) complete Form 4 rows from the insider tools, with parse failures surfaced instead of swallowed (under review)
 - [yahoo-finance-mcp #16](https://github.com/Alex2Yang97/yahoo-finance-mcp/pull/16) start/end date-range support for historical prices (closes an open issue)
 - [yahoo-finance-mcp #17](https://github.com/Alex2Yang97/yahoo-finance-mcp/pull/17) US class-share ticker normalization, so `BRK.B` stops silently returning empty data (**merged**)
 
