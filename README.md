@@ -62,11 +62,11 @@ Besides maintaining [data-profiler-mcp](https://github.com/haiiibin/data-profile
 
 <!-- Auto-updated daily by .github/workflows/update-readme.yml -->
 <!--RECENT_ACTIVITY:start-->
-- `2026-09-22` Pushed 1 commit to [haiiibin/claude-multi-agent-investing](https://github.com/haiiibin/claude-multi-agent-investing)
-- `2026-09-22` Pushed 1 commit to [haiiibin/vlog-pipeline](https://github.com/haiiibin/vlog-pipeline)
-- `2026-09-21` Pushed 1 commit to [haiiibin/data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp)
-- `2026-09-21` Pushed 1 commit to [haiiibin/acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp)
-- `2026-09-21` Pushed 1 commit to [haiiibin/vlog-pipeline](https://github.com/haiiibin/vlog-pipeline)
+- `2026-09-25` Opened PR in [stefanoamorelli/sec-edgar-mcp](https://github.com/stefanoamorelli/sec-edgar-mcp)
+- `2026-09-25` Opened PR in [stefanoamorelli/sec-edgar-toolkit](https://github.com/stefanoamorelli/sec-edgar-toolkit)
+- `2026-09-25` Pushed 1 commit to [haiiibin/haiiibin.github.io](https://github.com/haiiibin/haiiibin.github.io)
+- `2026-09-25` Pushed 1 commit to [haiiibin/haiiibin](https://github.com/haiiibin/haiiibin)
+- `2026-09-25` Pushed 1 commit to [haiiibin/sec-edgar-mcp](https://github.com/haiiibin/sec-edgar-mcp)
 <!--RECENT_ACTIVITY:end-->
 
 ## 🎓 Education & Certifications
