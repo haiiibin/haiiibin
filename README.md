@@ -64,9 +64,9 @@ Besides maintaining [data-profiler-mcp](https://github.com/haiiibin/data-profile
 <!--RECENT_ACTIVITY:start-->
 - `2026-09-25` Opened PR in [stefanoamorelli/sec-edgar-mcp](https://github.com/stefanoamorelli/sec-edgar-mcp)
 - `2026-09-25` Opened PR in [stefanoamorelli/sec-edgar-toolkit](https://github.com/stefanoamorelli/sec-edgar-toolkit)
+- `2026-10-09` Pushed 1 commit to [haiiibin/haiiibin.github.io](https://github.com/haiiibin/haiiibin.github.io)
 - `2026-09-25` Pushed 1 commit to [haiiibin/haiiibin.github.io](https://github.com/haiiibin/haiiibin.github.io)
 - `2026-09-25` Pushed 1 commit to [haiiibin/haiiibin](https://github.com/haiiibin/haiiibin)
-- `2026-09-25` Pushed 1 commit to [haiiibin/sec-edgar-mcp](https://github.com/haiiibin/sec-edgar-mcp)
 <!--RECENT_ACTIVITY:end-->
 
 ## 🎓 Education & Certifications
