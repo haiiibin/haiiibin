@@ -66,8 +66,8 @@ Besides maintaining [data-profiler-mcp](https://github.com/haiiibin/data-profile
 - `2026-10-09` Opened PR in [stefanoamorelli/sec-edgar-mcp](https://github.com/stefanoamorelli/sec-edgar-mcp)
 - `2026-10-09` Published release in [haiiibin/acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp)
 - `2026-10-09` Published release in [haiiibin/data-profiler-mcp](https://github.com/haiiibin/data-profiler-mcp)
-- `2026-09-25` Opened PR in [stefanoamorelli/sec-edgar-mcp](https://github.com/stefanoamorelli/sec-edgar-mcp)
-- `2026-09-25` Opened PR in [stefanoamorelli/sec-edgar-toolkit](https://github.com/stefanoamorelli/sec-edgar-toolkit)
+- `2026-10-09` Pushed 1 commit to [haiiibin/haiiibin](https://github.com/haiiibin/haiiibin)
+- `2026-10-09` Pushed 1 commit to [haiiibin/acb-tax-mcp](https://github.com/haiiibin/acb-tax-mcp)
 <!--RECENT_ACTIVITY:end-->
 
 ## 🎓 Education & Certifications
